@@ -21,7 +21,7 @@ require_once 'CRM/Bic/Parser/Parser.php';
  */
 class CRM_Bic_Parser_CH extends CRM_Bic_Parser_Parser {
 
-  static $page_url = 'http://www.six-interbank-clearing.com/dam/downloads/bc-bank-master/bcbankenstamm';
+  static $page_url = 'https://api.six-group.com/api/epcd/bankmaster/v2/public/downloads/bcbankenstamm';
 
   public function update() {
     // first, download the page
